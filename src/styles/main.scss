@@ -31,12 +31,13 @@ body {
   font-weight: 200;
   padding: 20px 0;
 }
+
 .scores {
   width: 100%;
   max-width: 400px;
   margin-right: 70px;
 
-  &__header{
+  &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,11 +48,12 @@ body {
     border: 2px solid black;
     border-radius: 3px;
 
-    &--item{
+    &--item {
       height: 25px;
-       padding: 5px 0;
-      &:nth-child(even){
-      background-color: rgb(182, 179, 179);
+      padding: 5px 0;
+
+      &:nth-child(even) {
+        background-color: rgb(182, 179, 179);
       }
     }
   }
@@ -59,17 +61,18 @@ body {
 
 .btn {
   padding: 10px 20px;
-  box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.5);
+  box-shadow: 5px 5px 5px rgba($color: #000, $alpha: 0.5);
   border: 2px solid black;
 
   &:active {
-    box-shadow: 2px 1px 3px rgba($color: #000000, $alpha: 0.5);
+    box-shadow: 2px 1px 3px rgba($color: #000, $alpha: 0.5);
   }
 }
 
 .form {
   display: flex;
   flex-direction: column;
+
   .btn {
     align-self: flex-end;
   }
@@ -80,9 +83,9 @@ body {
     border: 2px solid black;
     border-radius: 3px;
   }
+
   &-section {
     width: 100%;
     max-width: 350px;
   }
-  
 }
