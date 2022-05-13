@@ -13,16 +13,9 @@
 		<section class="scores">
 			<div class="scores__header">
 				<h2 class="heading-secondary">Recent scores</h2>
-				<button class="btn">Refresh</button>
+				<button class="btn refresh">Refresh</button>
 			</div>
 			<ul class="scores__list">
-				<li class="scores__list--item">Name: 200</li>
-				<li class="scores__list--item">Name: 210</li>
-				<li class="scores__list--item">Name: 10</li>
-				<li class="scores__list--item">Name: 100</li>
-				<li class="scores__list--item">Name: 30</li>
-				<li class="scores__list--item">Name: 320</li>
-				<li class="scores__list--item">Name: 520</li>
 			</ul>
 		</section>
 		<section class="form-section">
@@ -33,12 +26,14 @@
 			>
 				<input
 					type="text"
-					name="name"
+					name="user"
 					placeholder="Your name"
+					class="user"
 				>
 				<input
 					type="number"
-					name="score"
+					name="score" 
+					class="number"
 					placeholder="Your score"
 				>
 				<button type="submit" class="btn">Submit</button>
