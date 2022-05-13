@@ -59,6 +59,7 @@ body {
     &--item {
       height: 25px;
       padding: 5px 0;
+      font-size: 17px;
 
       &:nth-child(even) {
         background-color: rgba(182, 179, 179, 0.678);
@@ -94,6 +95,11 @@ body {
     border: 1px solid #777;
     border-radius: 3px;
     background-color: rgb(174, 215, 252);
+    font-size: 16px;
+
+    &::placeholder {
+      color: #000;
+    }
   }
 
   &-section {
